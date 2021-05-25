@@ -7,6 +7,4 @@ router.post("/api/findRoutes", backend.findRoutes, backend.sortRoutes);
 
 router.post("/api/findDirectRoutes", backend.findDirectRoutes);
 
-router.post("/api/timeToMinutes", backend.timeToMinutes);
-
 module.exports = router;
